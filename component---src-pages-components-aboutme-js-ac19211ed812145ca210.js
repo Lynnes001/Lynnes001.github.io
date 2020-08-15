@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{"9Rc5":function(n,e,t){"use strict";t.r(e),t.d(e,"default",(function(){return u}));var a=t("q1tI"),l=t.n(a);function u(){return l.a.createElement("div",null,l.a.createElement("h1",null,"Song Yang"),l.a.createElement("p",null,"email : tel : Github : LinkedIn : etc"))}}}]);
+//# sourceMappingURL=component---src-pages-components-aboutme-js-ac19211ed812145ca210.js.map
