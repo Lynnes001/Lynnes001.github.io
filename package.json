@@ -1,0 +1,27 @@
+{
+  "name": "githubpage",
+  "version": "1.0.0",
+  "description": "my github page website",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lynnes001/Lynnes001.github.io.git"
+  },
+  "author": "Song Yang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lynnes001/Lynnes001.github.io/issues"
+  },
+  "homepage": "https://github.com/Lynnes001/Lynnes001.github.io#readme",
+  "dependencies": {
+    "gatsby": "^2.24.47",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
