@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{"vdE/":function(e,n,t){"use strict";t.r(n),t.d(n,"default",(function(){return l}));var a=t("q1tI"),c=t.n(a);function l(){return c.a.createElement("div",null,c.a.createElement("h1",null,"Research Topics"),c.a.createElement("p",null,"Topic 1: xxx and xxx"),c.a.createElement("p",null,"In this project, I xxxx"))}}}]);
+//# sourceMappingURL=component---src-pages-components-contents-js-bb5c29def208a0b18bb6.js.map
