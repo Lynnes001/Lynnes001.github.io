@@ -34,7 +34,7 @@ export default function AboutMe() {
             <MyContainer>
                 <User
                     username="Song Yang"
-                    avatar="https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg"
+                    avatar="https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/xxxx"
                     afflation="Rutgers."
                 />
             </MyContainer>
