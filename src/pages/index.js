@@ -12,10 +12,10 @@ export default function Home() {
     return (
         <Container fluid> 
             <Row>
-                <Col sm={3}>    
+                <Col md={3} xs={12}>    
                     <AboutMe />
                 </Col>
-                <Col sm={9} style={{ padding: 0}}>
+                <Col md={9} xs={12} style={{ padding: 0}}>
                     <BorderLeft>
                         <Row><Intro /></Row>
                         <Lineh />

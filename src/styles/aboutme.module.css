@@ -1,20 +1,24 @@
 
 .avatar{
   margin: 1rem auto;
+  text-align: center;
 }
 .name{
-  font-size: 5rem;
+  font-size: 3rem;
   margin: 1rem auto;
+  text-align: center;
 
 }
 
 .afflation{
+  text-align: center;
 
 
 }
 
 .icons{
   /* margin-right: 1rem; */
+  text-align: center;
 
 
 }
