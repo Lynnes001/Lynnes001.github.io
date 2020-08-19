@@ -1,8 +1,10 @@
 .intro{
     /* padding-left: 30%; */
     /* padding-right: 30%; */
-    padding: 1rem 20% 1rem 20%;
+    padding: 1rem 0 1rem 0;
     margin: none;
     font-size: 1rem;
-
+    text-align: justify;
+    text-justify: inter-word;
+    
 }

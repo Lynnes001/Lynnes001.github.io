@@ -1,6 +1,5 @@
 import React from "react"
 import MyContainer from "./container"
-import Intro from "./intro"
 
 export default function Contents() {
     return (
