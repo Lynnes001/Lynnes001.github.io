@@ -3,3 +3,11 @@
     margin: auto;
 }
 
+
+.itemContainer{
+    align-items: center;
+    padding: 3rem;
+    margin: auto;
+    max-width: 60vw;
+
+}

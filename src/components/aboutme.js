@@ -4,7 +4,7 @@ import styles from "../styles/aboutme.module.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
-import {Button, Card} from "react-bootstrap"
+// import {Button, Card} from "react-bootstrap"
 
 
 

@@ -1,16 +1,41 @@
 import React from "react"
-import MyContainer from "./container"
+import ItemContainer from "./itemContainer"
+import ProjectItem from "./projectItem"
+import { useStaticQuery,  graphql } from "gatsby"
 
-export default function Contents() {
+
+export default function Contents({Children}) {
+    // const postContent = useStaticQuery(graphql`
+    // query MyQuery {
+    //     allMarkdownRemark {
+    //       edges {
+    //         node {
+    //           excerpt(format: PLAIN)
+    //           frontmatter {
+    //             title
+    //             content
+    //           }
+    //         }
+    //       }
+    //     }
+    //   }
+    // `)
+    // console.log(postContent.allMarkdownRemark.edges)
     return (
-        <MyContainer>
-            
-            <h1>Research Topics</h1>
+        <div>
+            <ItemContainer>
+                <ProjectItem id={"1"} cover={"1.jps"} />
+            </ItemContainer>
+            {/* <ItemContainer>
+                <ProjectItem />
+            </ItemContainer>
+            <ItemContainer>
+                <ProjectItem />
+            </ItemContainer>
+            <ItemContainer>
+                <ProjectItem />
+            </ItemContainer> */}
 
-            <p>Topic 1: xxx and xxx</p>
-
-            <p>In this project, I xxxx</p>
-        </MyContainer>
-
+        </div>
   )
 }

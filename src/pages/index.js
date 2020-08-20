@@ -17,13 +17,12 @@ export default function Home() {
                 </Col>
                 <Col md={9} xs={12} style={{ padding: 0}}>
                     <BorderLeft>
-                        <Row><Intro /></Row>
+                        <Intro />
                         <Lineh />
-                        <Row><Contents /></Row>
+                        <Contents />
                         <Lineh />
-                        <Row><Contents /></Row>
+                        {/* <Row><Contents /></Row> */}
                     </BorderLeft>
-                    
                 </Col>
             </Row>
 
