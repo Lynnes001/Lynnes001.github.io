@@ -4,7 +4,7 @@ import styles from "../styles/aboutme.module.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
-// import {Button, Card} from "react-bootstrap"
+import {Button, Card} from "react-bootstrap"
 
 
 
@@ -20,11 +20,11 @@ const User = props => (
 
         {/* <FontAwesomeIcon icon={linkedin} /> */}
       </p>
-      <ul className={styles.nav}>
-        <li>NavBar</li>
-        <li>Education</li>
-        <li>Projects</li>
-      </ul>
+      <div className={styles.nav}>
+        <Button variant="outline-info">Projects</Button>{' '} <br />
+        <Button variant="outline-info">Education</Button>{' '} <br />
+        <Button variant="outline-info" href="#">Download My Vitae</Button>{' '}
+      </div>
     </div>
   )
 

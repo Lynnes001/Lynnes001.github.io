@@ -30,6 +30,11 @@
 
 
 .nav{
+  text-align: center;
 
 
+}
+
+.nav > Button, a {
+  margin-top: 10px;
 }

@@ -1,6 +1,6 @@
 import React from "react"
 import styles from "../styles/projectItem.module.css"
-import { useStaticQuery,  graphql } from "gatsby"
+import { useStaticQuery,  graphql, Link } from "gatsby"
 // import Img from "gatsby-image"
 import Media from 'react-bootstrap/Media'
 
@@ -45,7 +45,7 @@ export default function ProjectItem(props){
     return (
         <div className={styles.pitems}>
             <ul className="list-unstyled">
-                <h4>{data.title}</h4>
+                <h4><a href="https://github.com/Lynnes001/mPose_mmWave_sensing">{data.title}</a></h4>
                 <Media as="li">
                     <img
                     width={180}
