@@ -35,7 +35,7 @@ export default function AboutMe() {
                 <User
                     username="Song Yang"
                     avatar="https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/xxxx"
-                    afflation="Rutgers."
+                    afflation=""
                 />
             </MyContainer>
 
