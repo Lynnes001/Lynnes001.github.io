@@ -44,8 +44,8 @@ export default function ProjectItem(props){
 
     return (
         <div className={styles.pitems}>
+            <h4><a href="https://github.com/Lynnes001/mPose_mmWave_sensing">{data.title}</a></h4>
             <ul className="list-unstyled">
-                <h4><a href="https://github.com/Lynnes001/mPose_mmWave_sensing">{data.title}</a></h4>
                 <Media as="li">
                     <img
                     width={180}

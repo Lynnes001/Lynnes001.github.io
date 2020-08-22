@@ -28,13 +28,17 @@
   font-size: 1.5rem;
 }
 
+.icons > span > a{
+  color: black
+}
 
 .nav{
   text-align: center;
-
+  /* width: 80%; */
+  /* border: solid black 1px; */
 
 }
 
 .nav > Button, a {
-  margin-top: 10px;
+  /* margin: 0px; */
 }

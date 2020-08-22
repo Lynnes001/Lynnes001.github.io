@@ -2,6 +2,12 @@
     margin: 100px, auto, 100px, auto;
 }
 
+
+.pitems > h4 > a{
+
+    color: black;
+}
+
 .cover{
     width: 20rem;
 }
