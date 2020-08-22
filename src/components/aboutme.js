@@ -6,7 +6,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import {Button, Card} from "react-bootstrap"
 
-
+import cv from "../data/cv/CV_SongYang_website.pdf"
 
 const User = props => (
     <div>
@@ -22,8 +22,8 @@ const User = props => (
       </p>
       <div className={styles.nav}>
         <Button variant="outline-info">Projects</Button>{' '} <br />
-        <Button variant="outline-info">Education</Button>{' '} <br />
-        <Button variant="outline-info" href="#">Download My Vitae</Button>{' '}
+        {/* <Button variant="outline-info">Education</Button>{' '} <br /> */}
+        <Button variant="outline-info" href={cv}>Download My Vitae</Button>{' '}
       </div>
     </div>
   )

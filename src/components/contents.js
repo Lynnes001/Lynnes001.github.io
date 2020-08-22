@@ -24,7 +24,10 @@ export default function Contents({Children}) {
     // console.log(postContent.allMarkdownRemark.edges)
     return (
         <MyContainer>
-            <p className="ContentTitle">Projects</p>
+            {/* <p className="ContentTitle">Projects</p> */}
+            <ItemContainer style={{padding: '0'}}>
+                <h2>Projects</h2>
+            </ItemContainer>
             <ItemContainer>
                 <ProjectItem id={"1"} cover={"1.jps"} link={"https://github.com/Lynnes001/mPose_mmWave_sensing"} />
             </ItemContainer>
